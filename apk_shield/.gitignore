@@ -1,0 +1,22 @@
+# --- Secrets (NEVER UPLOAD) ---
+vt_key.txt
+__pycache__/
+*.pyc
+
+# --- Local Databases & Cache ---
+shield_memory.db
+hash_db.json
+ti_cache/
+*.db
+
+# --- Scan Reports (Privacy) ---
+Report_*.html
+*.json
+*.log
+export_*.json
+
+# --- Binary & Test Files ---
+*.apk
+*.tar.gz
+gen_virus.py
+test_virus.apk

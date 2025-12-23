@@ -1,0 +1,71 @@
+# ==============================
+# CyberMoranda Defence .gitignore
+# ==============================
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments (agar future me use ho)
+venv/
+.env/
+
+# Logs
+*.log
+logs/
+log/
+
+# Reports & outputs (generated files)
+reports/
+output/
+*.html
+*.json
+*.csv
+
+# APK files (large & sensitive)
+*.apk
+
+# Temporary / cache files
+tmp/
+temp/
+.cache/
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# Termux / Android specific
+termux.properties
+storage/
+Android/
+sdcard/
+
+# IDE / Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Git internal mistakes
+*.orig
+
+# Security sensitive files
+vt_key.txt
+api_keys.txt
+secrets.txt
+*.key
+*.token
+
+# Nested git repos (prevent future issues)
+**/.git
+
+# Ignore downloaded / cloned external tools
+external_tools/
+third_party/
+
+# Test artifacts
+test/
+tests_output/
+sentry/.cm_vault/

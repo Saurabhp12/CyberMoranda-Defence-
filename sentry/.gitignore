@@ -1,0 +1,14 @@
+# --- Local Operational Data ---
+sentry_baseline.json
+*.db
+*.log
+sentry_logs/
+
+# --- Configs (If you have any) ---
+config.json
+.env
+email_config.py
+
+# --- Python Junk ---
+__pycache__/
+*.pyc

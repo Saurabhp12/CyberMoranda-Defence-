@@ -1,0 +1,19 @@
+# --- Secrets & Configs ---
+vt_config.json
+*.key
+*.token
+
+# --- Databases & Intelligence ---
+*.db
+hunter_intel.db
+index_file
+
+# --- Outputs & Logs ---
+loot_captured/
+logs/
+reports/
+
+# --- System Junk ---
+__pycache__/
+*.pyc
+.DS_Store

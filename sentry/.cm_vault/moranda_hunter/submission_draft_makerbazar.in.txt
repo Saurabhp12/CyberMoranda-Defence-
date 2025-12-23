@@ -1,0 +1,266 @@
+Subject: Security Vulnerability Report - https://makerbazar.in/index?gad_source=1&gad_campaignid=21172818633
+
+## Summary:
+Automated scan via Moranda Hunter v1.0 has identified several security issues.
+
+### [HIGH] JS Secret Disclosure: IP Address
+**Target:** https://makerbazar.in/index?gad_source=1&gad_campaignid=21172818633
+**Description:** Exposed secret found in https://makerbazar.in/cdn/shopifycloud/shop-js/modules/v2/chunk.common_CxiRFgWq.esm.js: 1.433.4.577
+**Impact:** This could lead to unauthorized access or information disclosure.
+**Steps to Reproduce:**
+1. Use Moranda Hunter to scan https://makerbazar.in/index?gad_source=1&gad_campaignid=21172818633
+2. Observe the following trace: See attached logs
+
+---
+### [HIGH] JS Secret Disclosure: IP Address
+**Target:** https://makerbazar.in/index?gad_source=1&gad_campaignid=21172818633
+**Description:** Exposed secret found in https://makerbazar.in/cdn/shopifycloud/shop-js/modules/v2/chunk.common_CxiRFgWq.esm.js: 104.082.186.187
+**Impact:** This could lead to unauthorized access or information disclosure.
+**Steps to Reproduce:**
+1. Use Moranda Hunter to scan https://makerbazar.in/index?gad_source=1&gad_campaignid=21172818633
+2. Observe the following trace: See attached logs
+
+---
+### [HIGH] JS Secret Disclosure: IP Address
+**Target:** https://makerbazar.in/index?gad_source=1&gad_campaignid=21172818633
+**Description:** Exposed secret found in https://makerbazar.in/cdn/shopifycloud/shop-js/modules/v2/chunk.common_CxiRFgWq.esm.js: 026.064.089.089
+**Impact:** This could lead to unauthorized access or information disclosure.
+**Steps to Reproduce:**
+1. Use Moranda Hunter to scan https://makerbazar.in/index?gad_source=1&gad_campaignid=21172818633
+2. Observe the following trace: See attached logs
+
+---
+### [HIGH] JS Secret Disclosure: IP Address
+**Target:** https://makerbazar.in/index?gad_source=1&gad_campaignid=21172818633
+**Description:** Exposed secret found in https://makerbazar.in/cdn/shopifycloud/shop-js/modules/v2/chunk.common_CxiRFgWq.esm.js: 127.0.0.1
+**Impact:** This could lead to unauthorized access or information disclosure.
+**Steps to Reproduce:**
+1. Use Moranda Hunter to scan https://makerbazar.in/index?gad_source=1&gad_campaignid=21172818633
+2. Observe the following trace: See attached logs
+
+---
+### [HIGH] JS Secret Disclosure: IP Address
+**Target:** https://makerbazar.in/index?gad_source=1&gad_campaignid=21172818633
+**Description:** Exposed secret found in https://makerbazar.in/cdn/shopifycloud/shop-js/modules/v2/chunk.common_CxiRFgWq.esm.js: 066.028.092.092
+**Impact:** This could lead to unauthorized access or information disclosure.
+**Steps to Reproduce:**
+1. Use Moranda Hunter to scan https://makerbazar.in/index?gad_source=1&gad_campaignid=21172818633
+2. Observe the following trace: See attached logs
+
+---
+### [HIGH] JS Secret Disclosure: IP Address
+**Target:** https://makerbazar.in/index?gad_source=1&gad_campaignid=21172818633
+**Description:** Exposed secret found in https://makerbazar.in/cdn/shopifycloud/shop-js/modules/v2/chunk.common_CxiRFgWq.esm.js: 027.065.09.09
+**Impact:** This could lead to unauthorized access or information disclosure.
+**Steps to Reproduce:**
+1. Use Moranda Hunter to scan https://makerbazar.in/index?gad_source=1&gad_campaignid=21172818633
+2. Observe the following trace: See attached logs
+
+---
+### [HIGH] JS Secret Disclosure: IP Address
+**Target:** https://makerbazar.in/index?gad_source=1&gad_campaignid=21172818633
+**Description:** Exposed secret found in https://makerbazar.in/cdn/shopifycloud/shop-js/modules/v2/chunk.common_CxiRFgWq.esm.js: 2.673.402.118
+**Impact:** This could lead to unauthorized access or information disclosure.
+**Steps to Reproduce:**
+1. Use Moranda Hunter to scan https://makerbazar.in/index?gad_source=1&gad_campaignid=21172818633
+2. Observe the following trace: See attached logs
+
+---
+### [HIGH] JS Secret Disclosure: IP Address
+**Target:** https://makerbazar.in/index?gad_source=1&gad_campaignid=21172818633
+**Description:** Exposed secret found in https://makerbazar.in/cdn/shopifycloud/shop-js/modules/v2/chunk.common_CxiRFgWq.esm.js: 105.083.187.187
+**Impact:** This could lead to unauthorized access or information disclosure.
+**Steps to Reproduce:**
+1. Use Moranda Hunter to scan https://makerbazar.in/index?gad_source=1&gad_campaignid=21172818633
+2. Observe the following trace: See attached logs
+
+---
+### [HIGH] JS Secret Disclosure: IP Address
+**Target:** https://makerbazar.in/index?gad_source=1&gad_campaignid=21172818633
+**Description:** Exposed secret found in https://makerbazar.in/cdn/shopifycloud/shop-js/modules/v2/chunk.common_CxiRFgWq.esm.js: 16.884.4.884
+**Impact:** This could lead to unauthorized access or information disclosure.
+**Steps to Reproduce:**
+1. Use Moranda Hunter to scan https://makerbazar.in/index?gad_source=1&gad_campaignid=21172818633
+2. Observe the following trace: See attached logs
+
+---
+### [HIGH] JS Secret Disclosure: IP Address
+**Target:** https://makerbazar.in/index?gad_source=1&gad_campaignid=21172818633
+**Description:** Exposed secret found in https://makerbazar.in/cdn/shopifycloud/shop-js/modules/v2/chunk.common_CxiRFgWq.esm.js: 105.082.187.187
+**Impact:** This could lead to unauthorized access or information disclosure.
+**Steps to Reproduce:**
+1. Use Moranda Hunter to scan https://makerbazar.in/index?gad_source=1&gad_campaignid=21172818633
+2. Observe the following trace: See attached logs
+
+---
+### [HIGH] JS Secret Disclosure: IP Address
+**Target:** https://makerbazar.in/index?gad_source=1&gad_campaignid=21172818633
+**Description:** Exposed secret found in https://makerbazar.in/cdn/shopifycloud/shop-js/modules/v2/chunk.common_CxiRFgWq.esm.js: 2.33.72.653
+**Impact:** This could lead to unauthorized access or information disclosure.
+**Steps to Reproduce:**
+1. Use Moranda Hunter to scan https://makerbazar.in/index?gad_source=1&gad_campaignid=21172818633
+2. Observe the following trace: See attached logs
+
+---
+### [HIGH] JS Secret Disclosure: IP Address
+**Target:** https://makerbazar.in/index?gad_source=1&gad_campaignid=21172818633
+**Description:** Exposed secret found in https://makerbazar.in/cdn/shopifycloud/shop-js/modules/v2/chunk.common_CxiRFgWq.esm.js: 054.089.168.12
+**Impact:** This could lead to unauthorized access or information disclosure.
+**Steps to Reproduce:**
+1. Use Moranda Hunter to scan https://makerbazar.in/index?gad_source=1&gad_campaignid=21172818633
+2. Observe the following trace: See attached logs
+
+---
+### [HIGH] JS Secret Disclosure: IP Address
+**Target:** https://makerbazar.in/index?gad_source=1&gad_campaignid=21172818633
+**Description:** Exposed secret found in https://makerbazar.in/cdn/shopifycloud/shop-js/modules/v2/chunk.common_CxiRFgWq.esm.js: 1.609.05.082
+**Impact:** This could lead to unauthorized access or information disclosure.
+**Steps to Reproduce:**
+1. Use Moranda Hunter to scan https://makerbazar.in/index?gad_source=1&gad_campaignid=21172818633
+2. Observe the following trace: See attached logs
+
+---
+### [HIGH] JS Secret Disclosure: Generic Secret
+**Target:** https://makerbazar.in/index?gad_source=1&gad_campaignid=21172818633
+**Description:** Exposed secret found in https://cdn.shopify.com/extensions/019b3139-0414-7883-9736-54e47813c915/bitespeed-popups-1039/assets/bitespeed-popups.js: BMSR8tXlLJOlANI7T5d2zhtzfBgW54OsaNX0K79JoOUlxSZz20vJE3cpmJAUtnpRIyAqEM-rp5h8AhxdyXOL3Ws
+**Impact:** This could lead to unauthorized access or information disclosure.
+**Steps to Reproduce:**
+1. Use Moranda Hunter to scan https://makerbazar.in/index?gad_source=1&gad_campaignid=21172818633
+2. Observe the following trace: See attached logs
+
+---
+### [HIGH] JS Secret Disclosure: Generic Secret
+**Target:** https://makerbazar.in/index?gad_source=1&gad_campaignid=21172818633
+**Description:** Exposed secret found in https://cdn.shopify.com/extensions/019b3139-0414-7883-9736-54e47813c915/bitespeed-popups-1039/assets/bitespeed-popups.js: BMSR8tXlLJOlANI7T5d2zhtzfBgW54OsaNX0K79JoOUlxSZz20vJE3cpmJAUtnpRIyAqEM-rp5h8AhxdyXOL3Ws
+**Impact:** This could lead to unauthorized access or information disclosure.
+**Steps to Reproduce:**
+1. Use Moranda Hunter to scan https://makerbazar.in/index?gad_source=1&gad_campaignid=21172818633
+2. Observe the following trace: See attached logs
+
+---
+### [HIGH] JS Secret Disclosure: Generic Secret
+**Target:** https://makerbazar.in/index?gad_source=1&gad_campaignid=21172818633
+**Description:** Exposed secret found in https://cdn.shopify.com/extensions/019b3139-0414-7883-9736-54e47813c915/bitespeed-popups-1039/assets/bitespeed-popups.js: bspdLocationData
+**Impact:** This could lead to unauthorized access or information disclosure.
+**Steps to Reproduce:**
+1. Use Moranda Hunter to scan https://makerbazar.in/index?gad_source=1&gad_campaignid=21172818633
+2. Observe the following trace: See attached logs
+
+---
+### [HIGH] JS Secret Disclosure: Generic Secret
+**Target:** https://makerbazar.in/index?gad_source=1&gad_campaignid=21172818633
+**Description:** Exposed secret found in https://cdn.shopify.com/extensions/019b3139-0414-7883-9736-54e47813c915/bitespeed-popups-1039/assets/bitespeed-popups.js: bitespeedPopupJsons
+**Impact:** This could lead to unauthorized access or information disclosure.
+**Steps to Reproduce:**
+1. Use Moranda Hunter to scan https://makerbazar.in/index?gad_source=1&gad_campaignid=21172818633
+2. Observe the following trace: See attached logs
+
+---
+### [HIGH] JS Secret Disclosure: Generic Secret
+**Target:** https://makerbazar.in/index?gad_source=1&gad_campaignid=21172818633
+**Description:** Exposed secret found in https://cdn.shopify.com/extensions/019b3139-0414-7883-9736-54e47813c915/bitespeed-popups-1039/assets/bitespeed-popups.js: bspdPushSubscribed
+**Impact:** This could lead to unauthorized access or information disclosure.
+**Steps to Reproduce:**
+1. Use Moranda Hunter to scan https://makerbazar.in/index?gad_source=1&gad_campaignid=21172818633
+2. Observe the following trace: See attached logs
+
+---
+### [HIGH] JS Secret Disclosure: IP Address
+**Target:** https://makerbazar.in/index?gad_source=1&gad_campaignid=21172818633
+**Description:** Exposed secret found in https://cdn.shopify.com/extensions/019b3139-0414-7883-9736-54e47813c915/bitespeed-popups-1039/assets/bitespeed-popups.js: 10.1.5.129
+**Impact:** This could lead to unauthorized access or information disclosure.
+**Steps to Reproduce:**
+1. Use Moranda Hunter to scan https://makerbazar.in/index?gad_source=1&gad_campaignid=21172818633
+2. Observe the following trace: See attached logs
+
+---
+### [HIGH] JS Secret Disclosure: Generic Secret
+**Target:** https://makerbazar.in/index?gad_source=1&gad_campaignid=21172818633
+**Description:** Exposed secret found in https://makerbazar.in/cdn/shop/t/25/assets/theme.js?v=58436354120716407751759041543: _removeListenersAndResetClasses
+**Impact:** This could lead to unauthorized access or information disclosure.
+**Steps to Reproduce:**
+1. Use Moranda Hunter to scan https://makerbazar.in/index?gad_source=1&gad_campaignid=21172818633
+2. Observe the following trace: See attached logs
+
+---
+### [HIGH] JS Secret Disclosure: Generic Secret
+**Target:** https://makerbazar.in/index?gad_source=1&gad_campaignid=21172818633
+**Description:** Exposed secret found in https://makerbazar.in/cdn/shop/t/25/assets/theme.js?v=58436354120716407751759041543: _showInContainer
+**Impact:** This could lead to unauthorized access or information disclosure.
+**Steps to Reproduce:**
+1. Use Moranda Hunter to scan https://makerbazar.in/index?gad_source=1&gad_campaignid=21172818633
+2. Observe the following trace: See attached logs
+
+---
+### [HIGH] JS Secret Disclosure: Generic Secret
+**Target:** https://makerbazar.in/index?gad_source=1&gad_campaignid=21172818633
+**Description:** Exposed secret found in https://makerbazar.in/cdn/shop/t/25/assets/theme.js?v=58436354120716407751759041543: _preventDefaultAllowTouchScroll
+**Impact:** This could lead to unauthorized access or information disclosure.
+**Steps to Reproduce:**
+1. Use Moranda Hunter to scan https://makerbazar.in/index?gad_source=1&gad_campaignid=21172818633
+2. Observe the following trace: See attached logs
+
+---
+### [HIGH] JS Secret Disclosure: Generic Secret
+**Target:** https://makerbazar.in/index?gad_source=1&gad_campaignid=21172818633
+**Description:** Exposed secret found in https://makerbazar.in/cdn/shopifycloud/portable-wallets/latest/portable-wallets.en.js: cartRemovePersonalData
+**Impact:** This could lead to unauthorized access or information disclosure.
+**Steps to Reproduce:**
+1. Use Moranda Hunter to scan https://makerbazar.in/index?gad_source=1&gad_campaignid=21172818633
+2. Observe the following trace: See attached logs
+
+---
+### [HIGH] JS Secret Disclosure: Generic Secret
+**Target:** https://makerbazar.in/index?gad_source=1&gad_campaignid=21172818633
+**Description:** Exposed secret found in https://makerbazar.in/cdn/shopifycloud/portable-wallets/latest/portable-wallets.en.js: e6b446c1ebe782e2b2fc7eb8ef0dc791
+**Impact:** This could lead to unauthorized access or information disclosure.
+**Steps to Reproduce:**
+1. Use Moranda Hunter to scan https://makerbazar.in/index?gad_source=1&gad_campaignid=21172818633
+2. Observe the following trace: See attached logs
+
+---
+### [HIGH] JS Secret Disclosure: Generic Secret
+**Target:** https://makerbazar.in/index?gad_source=1&gad_campaignid=21172818633
+**Description:** Exposed secret found in https://unpkg.com/axios/dist/axios.min.js: throwIfRequested
+**Impact:** This could lead to unauthorized access or information disclosure.
+**Steps to Reproduce:**
+1. Use Moranda Hunter to scan https://makerbazar.in/index?gad_source=1&gad_campaignid=21172818633
+2. Observe the following trace: See attached logs
+
+---
+### [MEDIUM] Email Disclosure
+**Target:** https://makerbazar.in/index?gad_source=1&gad_campaignid=21172818633
+**Description:** Found: support@makerbazar.in
+**Impact:** This could lead to unauthorized access or information disclosure.
+**Steps to Reproduce:**
+1. Use Moranda Hunter to scan https://makerbazar.in/index?gad_source=1&gad_campaignid=21172818633
+2. Observe the following trace: See attached logs
+
+---
+### [MEDIUM] Email Disclosure
+**Target:** https://makerbazar.in/index?gad_source=1&gad_campaignid=21172818633
+**Description:** Found: back-in-stock@notifyboost.net
+**Impact:** This could lead to unauthorized access or information disclosure.
+**Steps to Reproduce:**
+1. Use Moranda Hunter to scan https://makerbazar.in/index?gad_source=1&gad_campaignid=21172818633
+2. Observe the following trace: See attached logs
+
+---
+### [LOW] Active Parameter: gad_source
+**Target:** https://makerbazar.in/index?gad_source=1&gad_campaignid=21172818633
+**Description:** Potential injection point
+**Impact:** This could lead to unauthorized access or information disclosure.
+**Steps to Reproduce:**
+1. Use Moranda Hunter to scan https://makerbazar.in/index?gad_source=1&gad_campaignid=21172818633
+2. Observe the following trace: See attached logs
+
+---
+### [LOW] Active Parameter: gad_campaignid
+**Target:** https://makerbazar.in/index?gad_source=1&gad_campaignid=21172818633
+**Description:** Potential injection point
+**Impact:** This could lead to unauthorized access or information disclosure.
+**Steps to Reproduce:**
+1. Use Moranda Hunter to scan https://makerbazar.in/index?gad_source=1&gad_campaignid=21172818633
+2. Observe the following trace: See attached logs
+
+---

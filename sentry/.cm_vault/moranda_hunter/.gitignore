@@ -1,0 +1,11 @@
+# Python garbage
+__pycache__/
+*.pyc
+
+# Local Scan Data (Don't leak your targets!)
+logs/
+*.log
+CyberMoranda_Report.html
+
+# System files
+.DS_Store

@@ -1,0 +1,15 @@
+# --- Operational Data (NEVER UPLOAD) ---
+scans_output/
+logs/
+*.log
+
+# --- ADB Keys & Auth ---
+# अगर टूल अपनी खुद की ADB Keys जनरेट करता है
+adbkey
+adbkey.pub
+*.keystore
+
+# --- System Junk ---
+__pycache__/
+*.pyc
+.DS_Store
