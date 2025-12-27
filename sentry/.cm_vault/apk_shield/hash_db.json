@@ -1,0 +1,20 @@
+{
+  "7d484bffeadac9eb0997835a4c624112af8a4753c0e3ad7bc2573dcaeb67709c": {
+    "status": "Clean/Unknown",
+    "source": "Aggregated (VT+OTX+MB)",
+    "label": "OTX:0 pulses",
+    "ts": 1765414842
+  },
+  "391460976c417b7bf3a0a9b85d849d5cb03b2ea6293b1fb711d36a2fb55d82b6": {
+    "status": "Clean/Unknown",
+    "source": "Aggregated (VT+OTX+MB)",
+    "label": "OTX:0 pulses",
+    "ts": 1765459687
+  },
+  "df47119b8306d56d3843f63ba710b43115ffbdec3375f2bbd2f886d52738d96a": {
+    "status": "Clean/Unknown",
+    "source": "Aggregated (VT+OTX+MB)",
+    "label": "OTX:0 pulses",
+    "ts": 1765604145
+  }
+}

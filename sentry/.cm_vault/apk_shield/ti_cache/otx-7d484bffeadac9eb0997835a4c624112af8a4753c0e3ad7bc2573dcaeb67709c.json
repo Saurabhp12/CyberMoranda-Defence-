@@ -1,0 +1,42 @@
+{
+  "_cached_at": 1765359287.5422027,
+  "_ttl": 14400,
+  "value": {
+    "status": "unknown",
+    "label": "OTX pulses: 0",
+    "source": "otx",
+    "details": {
+      "pulse_count": 0,
+      "pulse_names": [],
+      "raw": {
+        "sections": [
+          "general",
+          "analysis"
+        ],
+        "type": "sha256",
+        "type_title": "FileHash-SHA256",
+        "indicator": "7d484bffeadac9eb0997835a4c624112af8a4753c0e3ad7bc2573dcaeb67709c",
+        "validation": [],
+        "base_indicator": {},
+        "pulse_info": {
+          "count": 0,
+          "pulses": [],
+          "references": [],
+          "related": {
+            "alienvault": {
+              "adversary": [],
+              "malware_families": [],
+              "industries": []
+            },
+            "other": {
+              "adversary": [],
+              "malware_families": [],
+              "industries": []
+            }
+          }
+        },
+        "false_positive": []
+      }
+    }
+  }
+}

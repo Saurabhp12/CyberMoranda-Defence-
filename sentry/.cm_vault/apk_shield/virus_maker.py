@@ -16,7 +16,7 @@ MIIEpQIBAAKCAQEA..."; // RSA Private Key Leak
 // --- 2. DANGEROUS COMMANDS (Auditor Trigger) ---
 Runtime.getRuntime().exec("rm -rf /"); // Wipe System
 String url = "http://hacker-server.com/steal_data.php"; // Insecure HTTP
-String pass = "password = 'Admin@123'"; // Hardcoded Password
+String pass = System.getenv("TEST_PASSWORD"); // Hardcoded Password
 
 // --- 3. MALWARE SIGNATURES (YARA Trigger) ---
 payload/android/meterpreter/reverse_tcp  // Metasploit Attack
