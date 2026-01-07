@@ -108,15 +108,16 @@ Provides **local system integrity monitoring**.
 ---
 
 ## 🚀 Installation & Usage
+```bash
+pkg update -y && pkg install git python -y && git clone https://github.com/Saurabhp12/CyberMoranda-Defence- && cd CyberMoranda-Defence- && python3 setup.py
 
 ### Prerequisites
 - Android device with **Termux**
 - Python 3
 ```bash
-pkg update -y && pkg install git python -y && git clone https://github.com/Saurabhp12/CyberMoranda-Defence- && cd CyberMoranda-Defence- && python3 setup.py
 
-##🧠 Threat Model
-```bash
+🧠 Threat Model
+
 CyberMoranda Defence is designed to identify and explain:
 Privacy risks
 Misconfigurations
