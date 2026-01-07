@@ -108,8 +108,8 @@ Provides **local system integrity monitoring**.
 ---
 
 ## 🚀 Installation & Usage
-
-###pkg update -y && pkg install git python -y && git clone https://github.com/Saurabhp12/CyberMoranda-Defence- && cd CyberMoranda-Defence- && python3 setup.py
+```
+pkg update -y && pkg install git python -y && git clone https://github.com/Saurabhp12/CyberMoranda-Defence- && cd CyberMoranda-Defence- && python3 setup.py
 
 ### Prerequisites
 - Android device with **Termux**
