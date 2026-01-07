@@ -115,7 +115,8 @@ Provides **local system integrity monitoring**.
 ```bash
 pkg update -y && pkg install git python -y && git clone https://github.com/Saurabhp12/CyberMoranda-Defence- && cd CyberMoranda-Defence- && python3 setup.py
 
-🧠 Threat Model
+##🧠 Threat Model
+```bash
 CyberMoranda Defence is designed to identify and explain:
 Privacy risks
 Misconfigurations
