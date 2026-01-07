@@ -114,7 +114,7 @@ pkg update -y && pkg install git python -y && git clone https://github.com/Saura
 ### Prerequisites
 - Android device with **Termux**
 - Python 3
-```bash
+bash
 
 🧠 Threat Model
 
