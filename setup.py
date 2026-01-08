@@ -26,13 +26,15 @@ def banner():
     {W}""")
 
 def run_cmd(command, task_name):
-    print(f"{Y}[~] {task_name}...{W}", end="\r")
+    # [FIX] Matrix Mode On: Ab output screen par dikhega
+    print(f"{Y}[~] {task_name}...{W}")
     try:
-        # Output ko hide karne ke liye (silent install)
-        subprocess.check_call(command, shell=True, stdout=subprocess.DEVNULL, stderr=subprocess.STDOUT)
-        print(f"{G}[✔] {task_name} - INSTALLED     {W}")
+        # DEVNULL hata diya gaya hai taaki aap prompts dekh saken
+        subprocess.check_call(command, shell=True)
+        print(f"{G}[✔] {task_name} - COMPLETED     {W}")
+        print("-" * 40)
     except subprocess.CalledProcessError:
-        print(f"{R}[✘] {task_name} - FAILED (Check Error){W}")
+        print(f"{R}[✘] {task_name} - FAILED (Check Error Above){W}")
 
 def check_internet():
     print(f"{C}[*] Checking Internet Connection...{W}")
@@ -45,11 +47,6 @@ def check_internet():
 
 # --- INSTALLATION LISTS ---
 
-# 1. System Packages (Termux/Linux)
-# Folder structure ke hisaab se dependencies:
-# - android_adb_guard -> android-tools (adb)
-# - apk_shield -> net-tools
-# - moranda_hunter -> clang, make
 SYS_PACKAGES = [
     "git",
     "python",
@@ -62,7 +59,6 @@ SYS_PACKAGES = [
     "openssh"
 ]
 
-# 2. Python Libraries (Pip)
 PIP_PACKAGES = [
     "requests",
     "beautifulsoup4",
@@ -77,6 +73,7 @@ def main_install():
     time.sleep(1)
     
     print(f"\n{C}--- PHASE 1: SYSTEM ENVIRONMENT ---{W}")
+    # Yahan agar Termux kuch puche, to 'y' aur Enter dabana
     run_cmd("pkg update -y && pkg upgrade -y", "Updating Termux Core")
     
     for pkg in SYS_PACKAGES:
@@ -90,19 +87,18 @@ def main_install():
 
     print(f"\n{C}--- PHASE 3: CONFIGURATION ---{W}")
     
-    # Create Shortcut Command 'moranda'
     try:
         with open("/data/data/com.termux/files/usr/bin/moranda", "w") as f:
             f.write('#!/bin/bash\ncd $HOME/CyberMoranda-Defence- && python3 moranda_os.py')
         os.system("chmod +x /data/data/com.termux/files/usr/bin/moranda")
         print(f"{G}[✔] Created shortcut command: 'moranda'{W}")
     except:
-        print(f"{Y}[!] Could not create shortcut (Permission Error){W}")
+        print(f"{Y}[!] Could not create shortcut (Permission Error or Non-Termux Env){W}")
 
     print(f"\n{G}========================================{W}")
     print(f"{G}   INSTALLATION SUCCESSFUL! 🚀{W}")
     print(f"{G}========================================{W}")
-    print(f"\nNow you can launch the system by typing:")
+    print(f"\nNow launch the system by typing:")
     print(f"{C}   moranda{W}")
     print(f"   OR")
     print(f"{C}   python3 moranda_os.py{W}\n")
